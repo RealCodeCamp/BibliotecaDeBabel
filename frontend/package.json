@@ -13,7 +13,7 @@
     "test": "ava",
     "test:unit": "cross-env TEST=unit ava ./test/specs/**/*",
     "test:e2e": "cross-env TEST=e2e ava ./test/e2e/**/*",
-    "docker": "npm run dev"  
+    "docker": "npm run dev"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
@@ -23,21 +23,22 @@
     "@nuxtjs/pwa": "^3.0.0-0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
-    "@nuxtjs/tailwindcss": "^1.0.0",
+    "@ava/babel": "^1.0.0",
+    "@nebulous/skynet": "^1.0.1",
     "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1",
+    "@nuxtjs/tailwindcss": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.27",
     "ava": "^3.0.0",
-    "@ava/babel": "^1.0.0",
+    "babel-eslint": "^10.0.1",
     "babel-plugin-module-resolver": "^3.2.0",
     "browser-env": "^3.2.5",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.19.1",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^2.0.0"
